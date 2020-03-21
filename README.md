@@ -1,7 +1,7 @@
 # oculus-stream-guide
 ### The LeahNudle guide to using the oculus mirror to stream vr games nicer :)
 
-### SHORT VERSION:
+### SHORT VERSION BECAUSE I CANT STOP TYPING:
 1. Install the oculus software, preferably on an SSD
 2. Find your Oculus software directory
 3. Find the Oculus Mirror exe, in `\Support\oculus-diagnostics\` from the base Oculus software directory
