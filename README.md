@@ -1,6 +1,20 @@
 # oculus-stream-guide
 ### The LeahNudle guide to using the oculus mirror to stream vr games nicer :)
 
+### SHORT VERSION:
+1. Install the oculus software, preferably on an SSD
+2. Find your Oculus software directory
+3. Find the Oculus Mirror exe, in `\Support\oculus-diagnostics\` from the base Oculus software directory
+4. Download or create the .bat file with the stream settings in it
+5. Put that .bat file in the Oculus Mirror Directory `<base Oculus directory>\Support\oculus-diagnostics\`
+
+   Optional - Make a shortcut to that .bat file so you can run it from anywhere :)
+   
+6. Run the .bat file (or shortcut) and it'll open the Oculus Mirror with the correct settings
+7. Capture that window in OBS as you would any other videogame
+
+---
+
 This might not be necessary for HL:Alyx because valve will probably make the preview you get outside of vr good for streaming but its really nice if you ever find a game that looks like poop in the desktop view (unity games are REAL bad for it)
 
 When you install the oculus software to use the headset it'll install a tool in the `Support\oculus-diagnostics\` folder in the same directory as you install the software in (mine is my SSD `G:\Oculus\Support\oculus-diagnostics`) called `OculusMirror.exe`
