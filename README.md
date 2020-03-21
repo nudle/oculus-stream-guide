@@ -1,7 +1,7 @@
 # oculus-stream-guide
-a guide to using the oculus mirror to stream games nicer :)
+### The LeahNudle guide to using the oculus mirror to stream vr games nicer :)
 
-this might not be necessary for HL:Alyx because valve will probably make the preview you get outside of vr good for streaming but its really nice if you ever find a game that looks like poop in the desktop view (unity games are REAL bad for it)
+This might not be necessary for HL:Alyx because valve will probably make the preview you get outside of vr good for streaming but its really nice if you ever find a game that looks like poop in the desktop view (unity games are REAL bad for it)
 
 When you install the oculus software to use the headset it'll install a tool in the `Support\oculus-diagnostics\` folder in the same directory as you install the software in (mine is my SSD `G:\Oculus\Support\oculus-diagnostics`) called `OculusMirror.exe`
 
@@ -16,12 +16,14 @@ my batch file uses the setting `--RightEyeOnly` which means it'll show only what
 
 depending on the eye you use to aim you might have to change the settings in the batch file. if you shoot left handed you'll probably aim with your left eye and should change the `--RightEyeOnly` to `--LeftEyeOnly` but if you're right handed/eyed just use `--RightEyeOnly`
 
-if you run the attached .bat file in the oculus mirror directory it'll open the oculus mirror in a window and you can capture that like you usually would in OBS, including putting your overlays and stuff over it. I use game capture but I'm sure whatever method you want would work. wouldn't recommend resizing the actual window but you can make it fit the screen in obs or whatever to make it fill the entire stream.
+if you run the  .bat file in the oculus mirror directory it'll open the oculus mirror in a window and you can capture that like you usually would in OBS, including putting your overlays and stuff over it. I use game capture but I'm sure whatever method you want would work. wouldn't recommend resizing the actual window but you can make it fit the screen in obs or whatever to make it fill the entire stream.
 
 i also try and always have the actual game window in focus when i'm playing just in case it affects the framerate but i really don't know if you need to. Again i dunno if ANY of this will be necessary to stream half life alyx because I hope valve will know how to make a game streamable! but its still nice to get a unified streamable view for any VR game you might have issues with, especially unity games because theyre ALWAYS garbage because unity sucks.
 
-if you can't download the file directly the settings are ```start "" "OculusMirror.exe" --Size 1280 720 --FovTanAngleMultiplier 1.3 1.3 --DisableTimewarp --SymmetricFov --RightEyeOnly --DisableFovStencil --IncludeSystemGui --IncludeNotifications
-exit```
+if you can't download the file directly the settings are 
+
+``start "" "OculusMirror.exe" --Size 1280 720 --FovTanAngleMultiplier 1.3 1.3 --DisableTimewarp --SymmetricFov --RightEyeOnly --DisableFovStencil --IncludeSystemGui --IncludeNotifications
+exit``
 
 put it in a text file in the same directory as oculusmirror.exe (mine is `G:\Oculus\Support\oculus-diagnostics\`) and rename it to streamMirror.bat
 
