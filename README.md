@@ -18,6 +18,9 @@ If you're left handed edit the .bat file and change `--RightEyeOnly` to `--LeftE
 If you get a black bar on the left side of your screen remove the command referencing FOV, this has never happened before today but thats whats wrong. Idk if its a unity thing or what but ofc something doesn't work
 
 ---
+### The Long version because I wrote too much but this has the details
+
+written for truktruk so this might be worded weird if you're not truktruk
 
 This might not be necessary for HL:Alyx because valve will probably make the preview you get outside of vr good for streaming but its really nice if you ever find a game that looks like poop in the desktop view (unity games are REAL bad for it)
 
@@ -26,6 +29,8 @@ When you install the oculus software to use the headset it'll install a tool in 
 this will mirror what you see in your headset, but as a separate exe so you can capture it better with OBS and configure it more. 
 
 https://developer.oculus.com/documentation/native/pc/dg-compositor-mirror/ all the options are here, but I'll go over the ones I use in case you just want that.
+
+
 
 i'll also upload the batch file i use, just chuck it in the same directory as OculusMirror.exe and it'll load the mirror up in 720p and with a higher fov than the default so it looks nice on the stream. doesn't affect your view or anything, just what is displayed on the mirror and therefore the stream. 
 
