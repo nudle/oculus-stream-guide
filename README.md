@@ -14,7 +14,6 @@ i'll also upload the batch file i use, just chuck it in the same directory as Oc
 my batch file uses the setting `--RightEyeOnly` which means it'll show only what your right eye sees. This is important because you'll be physically closing your left eye when you aim (if you're right handed) so you wanna show people what you're aiming at.
 
 
-
 depending on the eye you use to aim you might have to change the settings in the batch file. if you shoot left handed you'll probably aim with your left eye and should change the `--RightEyeOnly` to `--LeftEyeOnly` but if you're right handed/eyed just use `--RightEyeOnly`
 
 if you run the attached .bat file in the oculus mirror directory it'll open the oculus mirror in a window and you can capture that like you usually would in OBS, including putting your overlays and stuff over it. I use game capture but I'm sure whatever method you want would work. wouldn't recommend resizing the actual window but you can make it fit the screen in obs or whatever to make it fill the entire stream.
@@ -28,16 +27,13 @@ put it in a text file in the same directory as oculusmirror.exe (mine is `G:\Ocu
 
 you can then make a shortcut to the bat file and run that from wherever you like to get the nice oculus mirror up for streams.
 
-my settings should be attached below. if you have questions i'm always down to try and help. sorry that this got so long but i thought i should fully explain what things are doing before i get you to run anything
-
-
-
+if you have questions i'm always down to try and help.
 
 here's some previews if you wanna see the difference (game is 'Hotdogs, Horseshoes and Hand Grenades' on Steam which i highly recommend if you wanna mess around with vr guns)
 
-Using Oculus Mirror
+# Using Oculus Mirror
 ![alt text](https://i.imgur.com/aRdZbZQ.png "Using Oculus Mirror")
 
-Not using Oculus Mirror
+# Not using Oculus Mirror
 ![alt text](https://i.imgur.com/54uBlSx.jpg " Not Using Oculus Mirror")
 
