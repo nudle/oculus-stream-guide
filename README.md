@@ -13,7 +13,9 @@
 6. Run the .bat file (or shortcut) and it'll open the Oculus Mirror with the correct settings
 7. Capture that window in OBS as you would any other videogame
 
-If you're left handed edit the .bat file and change `--RightEyeOnly` to `LeftEyeOnly` so it looks nicer when you aim with your left hand/eye
+If you're left handed edit the .bat file and change `--RightEyeOnly` to `--LeftEyeOnly` so it looks nicer when you aim with your left hand/eye
+
+If you get a black bar on the left side of your screen remove the command referencing FOV, this has never happened before today but thats whats wrong. Idk if its a unity thing or what but ofc something doesn't work
 
 ---
 
